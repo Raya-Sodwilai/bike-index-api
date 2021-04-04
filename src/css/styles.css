@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: black;
 }
 
 .bike-searcher {
@@ -14,7 +14,7 @@ body {
   justify-content:center;
 }
 
-.look {
+.serialNumber {
   border-bottom:#ffffff 2px solid;
   background-color: transparent;
   width: 300px;
