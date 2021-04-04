@@ -1,0 +1,61 @@
+h1 {
+  color: rgb(18, 136, 34);
+  font-family:'lato', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.bike-searcher {
+  margin-top: 40px;
+  display: flex;
+  justify-content:center;
+}
+
+.look {
+  border-bottom:#ffffff 2px solid;
+  background-color: transparent;
+  width: 300px;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-radius:3px;
+  color:#ffffff;
+  font-size:15px;
+}
+
+.look:hover {
+  border-bottom: rgb(255, 255, 255) 2px solid;
+  background-color:#41b0be;
+}
+
+.bikeSearch,
+.allBikes{
+  margin-left: 5px;
+  border-radius: 5px;
+  border:none;
+  height: 40px;
+  width: 80px;
+  background-color: #41b0be;
+  font-size:13px;
+  color: #fff;
+  font-family:'lato', sans-serif;
+}
+
+.bikes-area {
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+.bike-block {
+  width: 400px;
+  margin: 5px;
+  float: left;
+  padding: 20px;
+}
+
+.bike-block img {
+  padding: 30px;
+}
